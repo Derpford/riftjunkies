@@ -1,0 +1,93 @@
+* The Crunch
+** How Rolling Works
+Let's assume that you're familiar with RPGs.
+Rolling in this game works in a slightly different way; instead of having a set die size, you build a dice pool.
+The number of dice in the pool is equal to the number you have in the relevant stat, and the size of the die is based on whether or not you have any skills related to it.
+Further, the system is "success-based" rather than "total-based": you're checking to see if each die is under or over a certain number. Specifically, unless otherwise stated, any die that shows *5 or less* is a success. However, there's a catch; every die that shows more than 5 grants you bonus experience points, which count toward skills or even toward improving one of your stats.
+Critical hits occur when two or more of your dice succeed and are showing matching numbers. These are extra-powerful; each matching die counts for double the successes, so if you roll a pair of 2s, you get a total of four successes from that roll. Even this can be enough to power through a challenge, but three of a kind gets you six successes, four of a kind gets you eight, and so on...
+
+There are four stats:
+- Muscle. This stat is your raw power. Muscle is used when using melee weapons, and gives you room for extra gear.
+- Awareness. This stat is your ability to see things other people don't notice. Awareness is used when using ranged weapons or spotting hidden things.
+- Resilience. This stat is your capacity for pain. Resilience is used to prevent damage from enemy attacks and to weather tasks of endurance.
+- Speed. This stat is your ability to move, and to think on your feet. Speed affects your movement speed and your initiative.
+
+The dice you use, according to the level you have in whatever skill you're applying, are:
+- No skills: d20
+- 1 rank: d12
+- 2 ranks: d10
+- 3 ranks: d8
+- 4 ranks: d6
+Nobody can gain 5 ranks in a skill, barring extenuating circumstances (such as a D&D-style Unlimited Wish). Doing so would allow you to roll d4s when using that skill, guaranteeing full success unless you roll critical failures.
+
+Finally, there's Recoil. Recoil is caused by attacking, taking damage, and generally being shaken up; it represents how unstable your character is at any given moment. For every three points of Recoil you have, your dice are downgraded--you roll as if you had one less rank in the skill than you actually have. At six points of Recoil, you're rolling at 2 skill ranks lower, and so on. You get to remove an amount of recoil at the end of your turn equal to your Muscle stat.
+
+** How Combat Works
+It is recommended that you run your combat scenarios on a gridmap, because this is a game that is combat-heavy.
+During combat, you, your allies, and your enemies act in order of your current Speed, with your current Recoil as a penalty. On your turn, you may take two actions:
+- Move. Moving allows you to move up to 2x your Speed in spaces.
+- Sprint. Sprinting is a single action, and allows you to move up to 3x your Speed in spaces; however, you gain 2 Recoil as a result.
+- Attack with a weapon. You perform an attack against an enemy, and then gain Recoil according to the weapon's Recoil value.
+- Help Up. If an ally is Incapacitated near you, you can help them up, removing the Incapacitated status from them. They still retain any other statuses, such as Scratched or Bloodied.
+- Use some other kind of equipment. It is not recommended to deploy new defenses while in the middle of combat, but you may want to anyway.
+- Manually reload any weapons you ahve that require reloading. Some weapons will have a "Capacity" stat; this is the number of times you can fire the weapon before having to reload.
+An attack involves two rolls: the Attack roll and the Defense roll. The Attack roll is usually either Muscle/Melee or Awareness/Shoot, although you could also have Awareness/Magic, Muscle/Throw, or some other unorthodox combination if you're the kind of person who's clever enough to make the GM laugh nervously. The Defense roll is usually Resilience/Parry (against Melee) or Resilience/Grit (against Ranged). If you'd rather move out of the way, there's also Speed/Dodge.
+Each success that the Defense rolls cancels out one success that the Attack rolls. Once the dice have settled, the Defender takes damage equal to the net total of successes the Attacker had multiplied by the Damage Value of the weapon the Attacker used.
+There is no HP in this game. Rather, there are a set of Statuses that are based on what damage you take.
+They are as follows:
+- 1 damage: Off-Balance. You gain 2 recoil.
+- 2 damage: Scratched. While Scratched, a character takes 1 extra point of damage from all sources.
+- 3 damage: Concussed. You gain 4 recoil. If you weren't already Scratched, you become Scratched.
+- 4 damage: Bloodied. While Bloodied, a character takes 1 extra point of damage, just like Scratched--and it stacks with Scratched.
+- 5 damage: Incapacitated. You've suffered an injury that puts you out of the fight; you can only move 1 space per turn, and can't take other actions. Further, you'll also die if you take 5 or more damage again.
+- 6 damage: Death. Unfortunately, this is a pretty risky job. One good hit *will* kill you, and--barring becoming some kind of clockwork cyborg--you won't be coming back.
+- 7+ damage: Horrifying death. What happened to you wasn't pretty. Not only are you dead, everyone who can see you immediately gains 2 Recoil as if they were put Off-Balance. Depending on certain details, the GM may rule that some characters are immune to this effect (i.e., they haven't got a brain with which to process the death, or they've Seen Things You Can't Possibly Imagine).
+
+** An Example
+A Loner Wearing A Hat (M2, A3, R1, S2) is attacking a Goblinid (M1, A0, R2, S2) with an Auto Crossbow (Damage 3, Recoil 3, Range 12). The Hat Guy has Shoot skill at Rank 2, so he rolls 3d10 (3 for his Awareness, and d10s for his skill) to attack the goblinid.
+>Hat Guy: "AAAAAAAAAAAAAAAAAAAA"
+>He rolls a 4, a 9, and a 2.
+The 9 counts toward his XP for this fight. The 4 and the 2 are Successes. Now the goblinid needs to roll a success using its Resilience. Being a mutated fox-thing, the goblinid has no ranks in any skill, let alone the surprisingly complicated art of taking a crossbow bolt to the face, so he rolls 2d20.
+>Goblinid: "SCREEEEEEEE"
+>He rolls a 15 and an 18.
+Since the Goblinid didn't roll any successes, he takes the full brunt of the damage. The Auto Crossbow has a Damage rating of 3, so Hat Guy's 2 successes are multiplied by 3 to get a final damage value of 6. The Goblinid dies an unceremonious death.
+
+** Gear
+Most of your ability to fight depends on what kinda equipment you have. You can punch things (your fists are a melee weapon with no recoil, 1 damage, and 1 range) but it's far more effective to use weapons.
+A list of some basic weapons follows:
+- Iron Hammer: 1 DAM, 1 RNG, 2 REC, Melee
+  - A heavy iron hammer. While steel is more weight efficient, this weapon is built for weight.
+  - When you attack, you may choose to only deal 1 damage. If you do, each success instead pushes the enemy two spaces.
+- Luminous Spear: 3 DAM, 2 RNG, 2 REC. Melee
+  - A long spear. Its point has been dipped in Luminite, hardening it beyond what regular steel can handle.
+- Drunkard's Club: 2 DAM, 1 RNG, 4 REC, Melee
+  - The 'club' is actually more of a flail, made of hinged sections. It is said that it's best used when intoxicated.
+  - For every 3 points of Recoil you have, you may deal 1 additional damage on a successful attack.
+- Seedling Sweeper: 1 DAM, 8 RNG, 2 REC, Ranged
+  - A clockwork-powered launcher that fires seeds dipped in Luminite. Often used as a sidearm, thanks to its practically infinite ammo capacity.
+  - When you attack, you may choose to attack up to 2 additional targets that are adjacent to your original target. This weapon does not need to reload.
+- Auto-Crossbow: 3 DAM, 12 RNG, 3 REC, 4 CAP, Ranged
+  - The age-old crossbow design has been improved by the addition of a winding mechanism that draws the string back for you. Bolts dipped in Luminite are also provided in a handy magazine.
+- Flask Tosser: 2 DAM, 6 RNG, 4 REC, 1 CAP, Ranged
+  - This device is precision-engineered to launch a flask of acid that breaks on impact. Try not to drop it.
+  - When you attack, you must attack all characters adjacent to your target.
+- Fire Staff: 1 DAM, 6 RNG, 2 REC, 3 CAP, Ranged Magical
+  - Combining a rune of ignition and a turbine creates a powerful whirlwind of flames.
+  - Upon successfully attacking a target, the target is Ignited. While Ignited, a character takes 1 damage at the beginning of each of their turns. They may spend an action to put themselves out.
+- Wand of Ice: 1 DAM, 6 RNG, 1 REC, 3 CAP, Ranged Magical
+  - Likewise, a rune of chilling can be used to produce a blizzard.
+  - Upon successfully attacking a target, the target gets a -1 penalty to Speed for each success rolled. This lasts until the end of their next turn.
+- Lightning Rod: 1 DAM, 6 RNG, 3 REC, 3 CAP, Ranged Magical
+  - And a rune of charging, applied in a very unsafe way, becomes a means of making enemies a little more flashy.
+  - Upon successfully attacking a target, the target becomes Electrocuted. Upon successfully attacking, you may add 1 damage for each Electrocuted character within 3 spaces of the target.
+
+Likewise, deployable gear is quite useful. When placed in the right location it can be a lifesaver.
+- Zipline
+  - A pair of easily-erected poles with a wire strung between them.
+  - You may place a Zipline token within 2 spaces of you. Once two Zipline tokens are in place, you may take an action while within 2 spaces of a Zipline token to move to any space on a line between the two tokens.
+- Bugbear Trap
+  - A massive set of Luminite-hardened steel jaws. Designed to pierce the chitin-hardened hide of Bugbears, it is powered by springs and some clever cogwork.
+  - You may place a Bugbear Trap token within 2 spaces of you. Any enemy that moves within 1 space of the Bugbear Trap token activates it, moving to the token and becoming immobile. It also must roll Resilience; if it fails, it becomes Incapacitated. The trap will be re-activated once its current target dies.
+- Rune of Vulnerability
+  - A stone tablet with a rune carved into it. It hums with power.
+  - You may place a Vulnerability Rune token within 2 spaces of you. Any character within 5 spaces of the Vulnerability Rune token will take 1 additional damage from all sources.
