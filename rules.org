@@ -20,7 +20,7 @@ The dice you use, according to the level you have in whatever skill you're apply
 - 4 ranks: d6
 Nobody can gain 5 ranks in a skill, barring extenuating circumstances (such as a D&D-style Unlimited Wish). Doing so would allow you to roll d4s when using that skill, guaranteeing full success unless you roll critical failures.
 
-Finally, there's Recoil. Recoil is caused by attacking, taking damage, and generally being shaken up; it represents how unstable your character is at any given moment. For every three points of Recoil you have, your dice are downgraded--you roll as if you had one less rank in the skill than you actually have. At six points of Recoil, you're rolling at 2 skill ranks lower, and so on. You get to remove an amount of recoil at the end of your turn equal to your Muscle stat.
+Finally, there's Recoil. Recoil is caused by attacking, taking damage, and generally being shaken up; it represents how unstable your character is at any given moment. For every three points of Recoil you have, you add 1 to each die you roll--so at 3 recoil, a roll of 5 becomes a 6 (and thus a failure), and so on. You get to remove an amount of recoil at the end of your turn equal to your Muscle stat.
 
 ** How Combat Works
 It is recommended that you run your combat scenarios on a gridmap, because this is a game that is combat-heavy.
